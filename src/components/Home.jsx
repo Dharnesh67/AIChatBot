@@ -6,7 +6,7 @@ import { SignInButton, SignedOut, SignedIn, UserButton } from '@clerk/clerk-reac
 import Button1 from '../utils/Button1';
 const Home = () => {
     return (
-        <div className='h-screen'>
+        <div className='h-[95vh]'>
             <header className='fixed top-0 left-0 right-0 bg-slate-950 text-white p-4 flex justify-between items-center z-10'>
                 <div>
                     <img src={sidelogo} alt="Logo" className="h-8 w-auto" />
@@ -20,8 +20,14 @@ const Home = () => {
                         <SignInButton />
                     </div>
                 </SignedOut>
+
             </header>
             <Robo />
+                <footer class="bg-gray-800 text-gray-200 py-4">
+                    <div class="container mx-auto px-4 text-center">
+                        <p class="text-sm">&copy; 2024 Your Company Name. All rights reserved.</p>
+                    </div>
+                </footer>
         </div>
     );
 }

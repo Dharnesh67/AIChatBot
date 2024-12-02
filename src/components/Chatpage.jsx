@@ -41,8 +41,7 @@ const Chatpage = () => {
       </div>
       <div className=" h-screen text-white flex absolute w-screen">
         {/* Sidebar */}
-        <div className="sidebar border-r border-gray-500 h-full md:w-1/3 sm:w-1/2 lg:w-1/4">
-        
+        <div className="sidebar border-r border-gray-500 h-full w-full bg-transparent text-gray-200 hidden sm:block sm:w-1/3 md:w-1/4 lg:w-1/6">
           <div className="upperside h-full ">
               
             <Link to={`/`}> <div className="uppersidetop flex justify-around items-center pt-2 ">
