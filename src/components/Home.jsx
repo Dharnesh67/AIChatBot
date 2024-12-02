@@ -23,11 +23,11 @@ const Home = () => {
 
             </header>
             <Robo />
-                <footer class="bg-gray-800 text-gray-200 py-4">
-                    <div class="container mx-auto px-4 text-center">
-                        <p class="text-sm">&copy; 2024 Your Company Name. All rights reserved.</p>
-                    </div>
-                </footer>
+            <footer class="bg-gray-800 text-gray-200 py-4">
+                <div class="container mx-auto px-4 text-center">
+                    <p class="text-sm">Developed by Dharmesh Raikwar &copy; 2024 </p>
+                </div>
+            </footer>
         </div>
     );
 }
